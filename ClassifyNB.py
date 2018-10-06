@@ -6,8 +6,3 @@ def classify(features_train, labels_train):
     ### fit the classifier on the training features and labels
     clf.fit(features_train, labels_train)
     return clf.fit(features_train, labels_train)
-
-    
-  
- 
-    
