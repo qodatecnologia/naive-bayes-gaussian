@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import warnings
 warnings.filterwarnings("ignore")
 
