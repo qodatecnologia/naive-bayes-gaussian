@@ -4,5 +4,6 @@ def classify(features_train, labels_train):
     ### create classifier
     clf = GaussianNB()
     ### fit the classifier on the training features and labels
-    clf.fit(features_train, labels_train)
     return clf.fit(features_train, labels_train)
+pred2 = clf.predict(features_test)
+print(f'Acurácia de {accuracy_score(pred2, labels_test)}')
